@@ -1,0 +1,28 @@
+.container {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: fit-content;
+}
+.container .image {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-position: center;
+  object-fit: contain;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.container .padding-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
